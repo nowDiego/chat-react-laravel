@@ -1,0 +1,58 @@
+header{
+    width: 100%; 
+ 
+}
+
+nav{
+display: flex;
+background-color: #f841b5;
+padding:10px
+
+}
+.menu{
+    display: flex;
+    width: 80%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu a{
+    color:white;
+    text-decoration: none;
+}
+
+.menu ul{
+display: flex;
+list-style-type: none;
+
+}
+
+.menu ul li{
+    padding:5px;
+  
+}
+
+.brand{    
+width: 20%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.brand a {  
+    text-decoration: none;
+}
+
+.brand h2{
+    color:white;
+    font-size: 25px;
+    /* text-shadow: 0 0 15px #05b0fa;   */
+}
+
+
+.bt-logout{  
+   width: 200px;
+   height: 40px;
+    padding: 5px;
+    
+}

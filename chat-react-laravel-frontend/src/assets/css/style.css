@@ -1,0 +1,23 @@
+.bt-primary{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #05b0fa;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bt-primary:hover{      
+    background-color: #05b0fad0;
+      
+}
+
+.content-error{
+    margin-top: 10px;
+    font-size: 14px;
+    color: rgb(211, 61, 61);
+    font-weight: 700;
+    text-align: center;
+}

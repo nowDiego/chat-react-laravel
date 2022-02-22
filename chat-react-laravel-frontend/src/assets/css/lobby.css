@@ -1,0 +1,55 @@
+.lobby{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f841b5;
+}
+
+.lobby form{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 3px;
+}
+
+.lobby form .bt-lobby{
+    margin-top: 10px;
+    width: 205px;
+    height: 40px;
+
+}
+
+.lobby form input{
+ 
+    margin-top: 10px;
+    width: 230px;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid rgba(202, 195, 195, 0.473) ;
+    padding: 2px;
+    text-align: center;
+   
+}
+
+.lobby form input:focus{  
+    outline: 2px solid #19a6e2;
+}
+
+.lobby form label{
+    margin-top: 5px;
+    font-weight: 800;
+    color:rgb(100, 98, 98);
+}
+
+.lobby-title{
+color: #c5529b;
+font-weight: 800;
+
+}
+

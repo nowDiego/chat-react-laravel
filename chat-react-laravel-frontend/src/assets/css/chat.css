@@ -1,0 +1,90 @@
+.wrapper{
+    height: 100vh;
+    /* background-color: beige; */
+}
+
+.chat{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Messages{
+    width: 600px;
+    height: 400px;
+    overflow-y: scroll;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border: 1px solid rgba(95, 92, 92, 0.068);
+    /* background-color: white; */
+}
+
+.container-message{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    word-break: break-word;
+ 
+}
+
+.message-sent{  
+ 
+    padding: 10px;     
+    margin: 10px;
+    background-color: #f7ebdc;   
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+
+}
+
+.message-sent-title{
+    text-transform: capitalize;
+    color:#f841b5;
+    
+}
+
+.message-received{
+    padding: 10px;
+    margin: 10px; 
+    background-color: #4caf5082;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+  
+
+}
+
+.message-received-title{
+    text-transform: capitalize;
+    color:rgb(24, 130, 201);
+}
+.send{
+    width: 600px;
+}
+
+.send form{
+    display: flex;
+    flex-direction: column;
+}
+
+.send form textarea{
+ 
+    border-color: rgba(199, 200, 201, 0.945);
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    padding: 3px;
+}
+
+.send form textarea:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.bt-send{        
+     padding: 10px;
+   }
+
