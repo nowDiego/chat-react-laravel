@@ -1,3 +1,4 @@
 # CHAT NOW 
-Aplicação utilizando React JS e Laravel   
+Aplicação utilizando React JS , React Native (Expo) e Laravel   
+
 

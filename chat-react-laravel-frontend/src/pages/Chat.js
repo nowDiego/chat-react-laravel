@@ -11,7 +11,7 @@ window.Pusher = require('pusher-js');
 function Chat() {
 
   
-  const {user} = useContext(AuthContext);
+  const {user,setUser} = useContext(AuthContext);
 
   const [sendMessage, setSendMessage] = useState({ 
     message:''
@@ -36,6 +36,15 @@ function Chat() {
   },[]);
 
 
+  // useEffect(() => {
+  
+  //   (() => {
+  //    if(Object.keys(user).length === 0){
+  //     me()
+  //    }
+  // })();
+
+  // },[])
 
 
 
@@ -52,6 +61,18 @@ function Chat() {
 
   }
 
+  // function me() {
+  //   axios
+  //     .get("chat/me")
+  //     .then(res => {
+  //       if (res.data.status) { 
+  //         console.log(res.data.data)
+  //         setUser(res.data.data); 
+  //       }
+
+  //     });
+
+  // }
 
 
 
@@ -184,7 +205,7 @@ Enviar sua mensagem...
 </textarea>
 <p className="content-error">{formErrors.message}</p>
 
-<button type="submit" className='bt-primary bt-send'>Entrar</button>
+<button type="submit" className='bt-primary bt-send'>Enviar</button>
 
 {response?<p className="content-error">{response.message}</p>:null}
 
